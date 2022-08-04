@@ -60,11 +60,17 @@ button {
 /* Scoreboard Styles */
 table, 
 th, 
-td {
+.td {
     border: 1px solid darkorange;
     margin: 0 auto;
 }
+#Rolling{
+    color: darkorange;
+}
 
+.box{
+    border: 1px solid black;
+}
 td {
     padding: 5px;
     font-weight: bold;
