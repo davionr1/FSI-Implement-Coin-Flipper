@@ -13,7 +13,10 @@ let headsCount = 0
 })
 
     document.getElementByClass(clearScoreboard).addEventListner('click', function(){
-    
+        document.getElementById("heads").reset();
+        document.getElementById("tails").reset();
+        document.getElementById("heads-percent").reset();
+        document.getElementById("tails-percent").reset();
 })
     
 
